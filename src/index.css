@@ -69,41 +69,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.main-para{
-  font-family: Main-Kaleko, 'Courier New', Courier, monospace;
-}
-.para1{
-  font-family: Kaleko205Round-Bold, 'Courier New', Courier, monospace;
-}
-.para2{
-  font-family: Kaleko205Round-BoldOblique, 'Courier New', Courier, monospace;
-}
-.para3{
-  font-family: Kaleko205Round-Book, 'Courier New', Courier, monospace;
-}
-.para4{
-  font-family: Kaleko205Round-BookOblique, 'Courier New', Courier, monospace;
-}
-.para5{
-  font-family: Kaleko205Round-Heavy, 'Courier New', Courier, monospace;
-}
-.para6{
-  font-family: Kaleko205Round-HeavyOblique, 'Courier New', Courier, monospace;
-} 
-.para7{
-  font-family: Kaleko205Round-Light, 'Courier New', Courier, monospace;
-}
-.para8{
-  font-family: Kaleko205Round-LightOblique, 'Courier New', Courier, monospace;
-}
-.para9{
-  font-family: Kaleko205Round-Thin, 'Courier New', Courier, monospace;
-}
-.para10{
-  font-family: Kaleko205Round-ThinOblique, 'Courier New', Courier, monospace;
-}
-
 h2{
   color:var(--blueColor);
   margin-bottom: 0;
@@ -145,6 +110,9 @@ a {
 }
 .main-para{
   font-size: 0.8rem;
+}
+.main-div{
+  margin-bottom:8rem;
 }
 .social-media-img{
   width:2.5rem;
