@@ -104,7 +104,6 @@ body {
   font-family: Kaleko205Round-ThinOblique, 'Courier New', Courier, monospace;
 }
 
-/* Aligned CSS Template one*/
 h2{
   color:var(--blueColor);
   margin-bottom: 0;
@@ -120,6 +119,15 @@ p.footer-text{
 a {
   text-decoration:none;
   color: var(--blueColor);
+}
+.btn{
+  background-color:var(--blueColor);
+  color:white;
+}
+.woje-logo{
+  height:4.2rem;
+  width:4.2rem;
+  margin-bottom:0.4rem;
 }
 .header-link{
   letter-spacing: 0.3rem; 
