@@ -5,7 +5,7 @@ import Main from '../pages/Main'
 
 const TemplateThree = () => {
   return (
-    <div>
+    <div className='d-flex flex-column'>
       <HeaderThree />
       <Main />
       <FooterOne />

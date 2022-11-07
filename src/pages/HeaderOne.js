@@ -4,7 +4,7 @@ import logo from "../images/WOJELogo.png";
 const HeaderOne = () => {
   return (
     <>
-      <div className='d-flex flex-wrap flex-column template1-header position-relative'>
+      <div className='d-flex flex-wrap flex-column template1-header sticky-top'>
         <div className="d-flex flex-row flex-wrap justify-content-start p-3 align-items-center mt-4">
           <div className="flex-shrink-0 ms-2">
           <a href="https://mywojemoney.com/" target="_blank" rel="noopener noreferrer">

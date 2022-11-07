@@ -2,7 +2,7 @@ import logo from "../images/WOJELogo.png";
 
 const HeaderTwo = () => {
   return (
-    <>
+    <div className="sticky-top">
     <div className="top-header"></div>
       <div className="d-flex pt-2 flex-row flex-wrap justify-content-center align-items-center">
         <div className="flex-shrink-0">
@@ -14,7 +14,7 @@ const HeaderTwo = () => {
           <h2 className="text-uppercase ps-4">woje</h2>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
