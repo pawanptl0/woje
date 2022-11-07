@@ -1,0 +1,190 @@
+:root {
+  --purpleColor:#3f0a42;
+  --blueColor: #00a69c;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Main-Kaleko';
+  src: url('fonts/Kaleko.105/Kaleko105Round-Medium.otf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-Bold';
+  src: url('fonts/Kaleko.205/Kaleko205Round-Bold.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-BoldOblique';
+  src: url('fonts/Kaleko.205/Kaleko205Round-BoldOblique.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-Book';
+  src: url('fonts/Kaleko.205/Kaleko205Round-Book.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-BookOblique';
+  src: url('fonts/Kaleko.205/Kaleko205Round-BookOblique.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-Heavy';
+  src: url('fonts/Kaleko.205/Kaleko205Round-Heavy.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-HeavyOblique';
+  src: url('fonts/Kaleko.205/Kaleko205Round-HeavyOblique.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-Light';
+  src: url('fonts/Kaleko.205/Kaleko205Round-Light.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-LightOblique';
+  src: url('fonts/Kaleko.205/Kaleko205Round-LightOblique.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-Thin';
+  src: url('fonts/Kaleko.205/Kaleko205Round-Thin.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Kaleko205Round-ThinOblique';
+  src: url('fonts/Kaleko.205/Kaleko205Round-ThinOblique.ttf')  format('truetype'); 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Main-Kaleko, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-para{
+  font-family: Main-Kaleko, 'Courier New', Courier, monospace;
+}
+.para1{
+  font-family: Kaleko205Round-Bold, 'Courier New', Courier, monospace;
+}
+.para2{
+  font-family: Kaleko205Round-BoldOblique, 'Courier New', Courier, monospace;
+}
+.para3{
+  font-family: Kaleko205Round-Book, 'Courier New', Courier, monospace;
+}
+.para4{
+  font-family: Kaleko205Round-BookOblique, 'Courier New', Courier, monospace;
+}
+.para5{
+  font-family: Kaleko205Round-Heavy, 'Courier New', Courier, monospace;
+}
+.para6{
+  font-family: Kaleko205Round-HeavyOblique, 'Courier New', Courier, monospace;
+} 
+.para7{
+  font-family: Kaleko205Round-Light, 'Courier New', Courier, monospace;
+}
+.para8{
+  font-family: Kaleko205Round-LightOblique, 'Courier New', Courier, monospace;
+}
+.para9{
+  font-family: Kaleko205Round-Thin, 'Courier New', Courier, monospace;
+}
+.para10{
+  font-family: Kaleko205Round-ThinOblique, 'Courier New', Courier, monospace;
+}
+
+/* Aligned CSS Template one*/
+h2{
+  color:var(--blueColor);
+  margin-bottom: 0;
+  font-size: Kaleko205Round-Bold;
+}
+
+p.footer-text{
+  letter-spacing: 0.3rem;
+  font-weight:normal;
+  font-size:0.8rem;
+  font-family: Kaleko205Round-Book;
+}
+a {
+  text-decoration:none;
+  color: var(--blueColor);
+}
+.header-link{
+  letter-spacing: 0.3rem; 
+  color: var(--blueColor);;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  /*font-family: Kaleko205Round-Bold;*/
+}
+.template1-header{
+  background: var(--purpleColor);
+}
+.template1-footer{
+  background-color: var(--blueColor);
+  color:#fff;
+}
+.main-para{
+  font-size: 0.8rem;
+}
+.social-media-img{
+  width:2.5rem;
+  height:2.5rem;
+}
+
+/* template 2 css */
+.top-header{
+  height:4vh;
+  background: #b0d4dc;
+}
+img.header-img{
+  border-radius: 50%;
+}
+p.powered-by{
+  color:white;
+  letter-spacing: 0.3rem;
+  margin-bottom:0;
+  font-family: Kaleko205Round-Book;
+  font-size:0.8rem;
+}
+.template2-footer{
+  background: var(--purpleColor);
+  color:#fff;
+}
+.footer-img{
+  height:2.5rem;
+  width:2.5rem;
+  }
+
+/* template 3 css*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+
